@@ -96,7 +96,7 @@ public class TaskServiceImpl implements TaskService{
 //	    long start = request.getStartDate();
 //	    long end = request.getEndDate();
 //
-//	    // ❌ BUG: No filtering of CANCELLED tasks
+//	    //BUG: No filtering of CANCELLED tasks
 //	    List<Task> filtered = tasks.stream()
 //	            .filter(t -> t.getTaskDeadlineTime() != null &&
 //	                         t.getTaskDeadlineTime() >= start &&
